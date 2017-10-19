@@ -173,6 +173,11 @@
 				CLASSPREFIX = PG;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Matthew Elton";
+				TargetAttributes = {
+					EF08517F16AAFF9500AB28E7 = {
+						DevelopmentTeam = 2484Z5XMVT;
+					};
+				};
 			};
 			buildConfigurationList = EF08517A16AAFF9500AB28E7 /* Build configuration list for PBXProject "Let's Build UITableView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -305,10 +310,12 @@
 		EF0851A816AAFF9500AB28E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2484Z5XMVT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Let's Build UITableView/Let's Build UITableView-Prefix.pch";
 				INFOPLIST_FILE = "Let's Build UITableView/Let's Build UITableView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.extra-help.Let-s-Build-UITableView.sz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -317,10 +324,12 @@
 		EF0851A916AAFF9500AB28E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2484Z5XMVT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Let's Build UITableView/Let's Build UITableView-Prefix.pch";
 				INFOPLIST_FILE = "Let's Build UITableView/Let's Build UITableView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.extra-help.Let-s-Build-UITableView.sz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
